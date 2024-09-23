@@ -61,7 +61,7 @@ class Brick(pygame.Rect):
 
 
     def draw(self):
-        pygame.draw.rect(screen, self.color, self, 3)  # fill
+        pygame.draw.rect(screen, 'blue', self, 3)  # fill
 
 player = Player(screen.get_width()/2 - 50, screen.get_height() - 50 ) # arbitrary values TODO tweak
 ball = Ball(screen.get_width()/2 - 10, screen.get_height()/ 2 + 20, 20) # arbitrary values TODO tweak
