@@ -35,7 +35,7 @@ class Ball(pygame.Rect):
         self.vy = random.randint(4,5) # TODO tweak
 
     def draw(self):
-        pygame.draw.ellipse(screen, 'gray', self, 0)
+        pygame.draw.ellipse(screen, 'blue', self, 0)
 
     def update(self):
         self.x += self.vx
